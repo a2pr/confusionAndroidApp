@@ -38,7 +38,7 @@ ngOnInit(){
     console.log('delete', id);
     let alert=this.alertCtrl.create({
       title:'Confirm Title',
-      message:'Do you want to delete favorite'+id,
+      message:'Do you want to delete favorite '+id,
       buttons:[
         {
           text:'Cancel',
@@ -66,7 +66,7 @@ ngOnInit(){
       ]
     });
     alert.present();
-    
+
     item.close();
   }
 }
