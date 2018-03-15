@@ -22,6 +22,7 @@ import { LeaderProvider } from '../providers/leader/leader';
 import { PromotionProvider } from '../providers/promotion/promotion';
 import { ProcessHttpmsgProvider } from '../providers/process-httpmsg/process-httpmsg';
 import { LocalNotifications } from '@ionic-native/local-notifications';
+import {EmailComposer} from '@ionic-native/email-composer';
 
 import{baseURL} from '../shared/basedurl';
 import { FavoriteProvider } from '../providers/favorite/favorite';
@@ -65,6 +66,7 @@ import { FavoriteProvider } from '../providers/favorite/favorite';
     DishProvider,
     LeaderProvider,
     LocalNotifications,
+    EmailComposer,
     PromotionProvider,
     ProcessHttpmsgProvider,
     {provide:'BaseURL', useValue:baseURL},
