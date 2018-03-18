@@ -27,7 +27,7 @@ import {EmailComposer} from '@ionic-native/email-composer';
 import {SocialSharing} from '@ionic-native/social-sharing';
 import { Camera } from '@ionic-native/camera';
 import {Network} from '@ionic-native/network';
-
+import {CallNumber} from '@ionic-native/call-number';
 import{baseURL} from '../shared/basedurl';
 import { FavoriteProvider } from '../providers/favorite/favorite';
 
@@ -80,7 +80,8 @@ import { FavoriteProvider } from '../providers/favorite/favorite';
     {provide:'BaseURL', useValue:baseURL},
     FavoriteProvider,
     Camera,
-    Network
+    Network,
+    CallNumber
   ]
 })
 export class AppModule {}
